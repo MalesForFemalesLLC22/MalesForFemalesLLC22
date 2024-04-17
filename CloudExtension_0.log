@@ -1,0 +1,217 @@
+2024-04-17T18:59:08.2160000	INFO	com.microsoft.intune.androiddevicegateway.datacomponent.implementation.AdgsCertStartupRunner	 1697	15229	Initializing AdgsCertStartupRunner.
+2024-04-17T18:59:08.2200000	INFO	com.microsoft.intune.androiddevicegateway.workcomponent.implementation.DeviceReportScheduler	 1697	15239	Scheduling ADGS device report work.
+2024-04-17T18:59:08.2310000	INFO	com.microsoft.intune.appconfig.androidapicomponent.implementation.RestrictionManagerWrapper	 1697	    2	Bundle is empty: true
+2024-04-17T18:59:08.2320000	INFO	com.microsoft.intune.appconfig.androidapicomponent.implementation.RestrictionManagerWrapper	 1697	    2	Bundle: []
+2024-04-17T18:59:08.2380000	WARN	com.microsoft.intune.environment.implementation.EnvironmentRepository	 1697	15245	Unknown environment . Defaulting to Production.
+2024-04-17T18:59:08.2410000	WARN	com.microsoft.intune.diagnostics.domain.DiagnosticEndpointsUseCase	 1697	15229	No AAD ID, falling back to global endpoints
+2024-04-17T18:59:08.2420000	INFO	com.microsoft.intune.androiddevicegateway.domain.IsAdgsEnabledUseCase	 1697	15224	ADGS: mode None not supported.
+2024-04-17T18:59:08.2430000	INFO	com.microsoft.intune.androiddevicegateway.domain.ScheduleAdgsCertificateWorkerUseCase	 1697	15224	ADGS: Skip scheduling cert worker if needed since ADGS is not enabled.
+2024-04-17T18:59:08.2640000	INFO	com.microsoft.intune.rasp.datacomponent.implementation.RaspStartupRunner	 1697	    2	Running RASP checks.
+2024-04-17T18:59:08.2650000	INFO	com.microsoft.intune.branding.domain.InvalidateDiskCachedBrandingUseCase	 1697	    2	Invalidate disk cached branding.
+2024-04-17T18:59:08.2650000	WARN	com.microsoft.intune.environment.implementation.EnvironmentRepository	 1697	15267	Unknown environment . Defaulting to Production.
+2024-04-17T18:59:08.2670000	INFO	com.microsoft.intune.iws.terms.datacomponent.abstraction.TermsRepo	 1697	15260	Invalidating All Terms
+2024-04-17T18:59:08.2670000	INFO	com.microsoft.intune.telemetry.implementation.WpjTelemetryStartupRunner	 1697	15264	Setting WPJ telemetry isLogEnabled to true
+2024-04-17T18:59:08.2700000	INFO	com.microsoft.intune.telemetry.abstraction.BrokerStateTelemetry	 1697	15265	Detected broker change since last BrokerStateEvent. Current broker: "com.azure.authenticator", previously reported broker: "NOT_INITIALIZED"
+2024-04-17T18:59:08.2750000	INFO	com.microsoft.intune.notifications.domain.AdminNotificationStartupRunner	 1697	15269	Initializing AdminNotificationStartupRunner.
+2024-04-17T18:59:08.2770000	INFO	com.microsoft.intune.cloudmessaging.datacomponent.implementation.CloudMessagingTokenStartupRunner	 1697	15267	No cloud messaging token saved yet. Scheduling work for retrieving token.
+2024-04-17T18:59:08.2780000	INFO	com.microsoft.intune.telemetry.abstraction.BrokerStateTelemetry	 1697	15265	Sending BrokerStateEvent(currentBroker=com.azure.authenticator, previousBroker=NOT_INITIALIZED, isCompanyPortalInstalled=false, companyPortalBrokerEnabledSetting=, isMicrosoftAuthenticatorInstalled=true, microsoftAuthenticatorEnabledSetting=0)
+2024-04-17T18:59:08.2790000	INFO	com.microsoft.intune.branding.domain.InvalidateDiskCachedBrandingUseCase	 1697	15242	Disk cached branding invalidated
+2024-04-17T18:59:08.2819999	INFO	com.microsoft.intune.cloudmessaging.workcomponent.implementation.CloudMessagingTokenScheduler	 1697	15267	Scheduled worker for generating cloud messaging token.
+2024-04-17T18:59:08.3520000	INFO	com.microsoft.intune.iws.terms.datacomponent.abstraction.TermsRepo	 1697	15260	All Terms Invalidated
+2024-04-17T18:59:08.3520000	INFO	com.microsoft.intune.common.androidapicomponent.implementation.ActivityNavigationMonitor	 1697	    2	Activity onCreated RootActivity
+2024-04-17T18:59:08.4360000	INFO	com.microsoft.intune.common.androidapicomponent.implementation.FragmentNavigationMonitor	 1697	    2	Fragment onCreated NavHostFragment
+2024-04-17T18:59:08.6380000	INFO	com.microsoft.intune.common.androidapicomponent.implementation.ActivityNavigationMonitor	 1697	    2	Activity onStarted RootActivity
+2024-04-17T18:59:08.6450000	INFO	com.microsoft.intune.common.androidapicomponent.implementation.FragmentNavigationMonitor	 1697	    2	Fragment onCreated SplashFragment
+2024-04-17T18:59:08.6680000	INFO	com.microsoft.intune.redirect.domain.CheckRedirectUseCase	 1697	15267	App config has no mode set. Should show redirect screen.
+2024-04-17T18:59:08.6690000	INFO	com.microsoft.intune.splash.presentationcomponent.abstraction.SplashNavigationHandler	 1697	15267	shouldGoToRedirect: True.
+2024-04-17T18:59:08.6700000	INFO	com.microsoft.intune.splash.domain.ToggleAppLinksUseCase	 1697	15267	Toggling app link enabled to false.
+2024-04-17T18:59:08.6740000	INFO	com.microsoft.intune.common.androidapicomponent.implementation.FragmentNavigationMonitor	 1697	    2	Fragment onStarted SplashFragment
+2024-04-17T18:59:08.6740000	INFO	com.microsoft.intune.common.androidapicomponent.implementation.FragmentNavigationMonitor	 1697	    2	Fragment onStarted NavHostFragment
+2024-04-17T18:59:08.6770000	INFO	com.microsoft.intune.common.androidapicomponent.implementation.ActivityNavigationMonitor	 1697	    2	Activity onResumed RootActivity
+2024-04-17T18:59:08.6780000	INFO	com.microsoft.intune.root.presentationcomponent.abstraction.RootViewModel	 1697	    2	Initializing loop
+2024-04-17T18:59:08.6790000	INFO	com.microsoft.intune.root.presentationcomponent.abstraction.RootViewModel	 1697	    2	Initial effect dispatched: LoadMenuStates
+2024-04-17T18:59:08.6790000	INFO	com.microsoft.intune.root.presentationcomponent.abstraction.RootViewModel	 1697	    2	Initial effect dispatched: LoadUserDrawerDetails
+2024-04-17T18:59:08.6810000	INFO	com.microsoft.intune.splash.presentationcomponent.abstraction.SplashViewModel	 1697	    2	Initializing loop
+2024-04-17T18:59:08.6820000	INFO	com.microsoft.intune.splash.presentationcomponent.abstraction.SplashViewModel	 1697	    2	Initial effect dispatched: LoadSplash
+2024-04-17T18:59:08.6830000	INFO	com.microsoft.intune.common.androidapicomponent.implementation.FragmentNavigationMonitor	 1697	    2	Fragment onResumed SplashFragment
+2024-04-17T18:59:08.6830000	INFO	com.microsoft.intune.common.androidapicomponent.implementation.FragmentNavigationMonitor	 1697	    2	Fragment onResumed NavHostFragment
+2024-04-17T18:59:08.6840000	INFO	com.microsoft.intune.root.presentationcomponent.abstraction.RootViewModel	 1697	15281	Update event received: MenuItemStateLoaded.
+2024-04-17T18:59:08.6870000	INFO	com.microsoft.intune.root.presentationcomponent.abstraction.RootViewModel	 1697	15281	Model updated.
+2024-04-17T18:59:08.6879999	INFO	com.microsoft.intune.splash.presentationcomponent.abstraction.SplashViewModel	 1697	15281	Update event received: SplashLoaded.
+2024-04-17T18:59:08.6889999	INFO	com.microsoft.intune.splash.presentationcomponent.abstraction.SplashViewModel	 1697	15281	Model updated.
+2024-04-17T18:59:08.6889999	INFO	com.microsoft.intune.root.presentationcomponent.abstraction.RootViewModel	 1697	15281	Update event received: MenuItemStateLoaded.
+2024-04-17T18:59:08.6889999	INFO	com.microsoft.intune.root.presentationcomponent.abstraction.RootViewModel	 1697	15281	Model updated.
+2024-04-17T18:59:08.6899999	INFO	com.microsoft.intune.root.presentationcomponent.abstraction.RootViewModel	 1697	15281	Update event received: UserDrawerDetailsLoaded.
+2024-04-17T18:59:08.8340000	INFO	com.microsoft.intune.splash.presentationcomponent.implementation.SplashFragment	 1697	    2	App is running on a non-COBO device. Disabling app links and showing redirect screen.
+2024-04-17T18:59:08.8350000	INFO	com.microsoft.intune.splash.presentationcomponent.abstraction.SplashViewModel	 1697	15281	Update event received: SplashNavigationLoaded.
+2024-04-17T18:59:08.8350000	INFO	com.microsoft.intune.splash.presentationcomponent.abstraction.SplashViewModel	 1697	15281	Model updated.
+2024-04-17T18:59:08.9280000	INFO	com.microsoft.intune.policytaskscheduler.workcomponent.implementation.PolicyHeartbeatWorker	 1697	15283	Performing work for checking if time elapsed since last run policy exceeds max time.
+2024-04-17T18:59:08.9340000	INFO	com.microsoft.intune.common.androidapicomponent.implementation.FragmentNavigationMonitor	 1697	    2	Fragment onPaused SplashFragment
+2024-04-17T18:59:08.9350000	INFO	com.microsoft.intune.common.androidapicomponent.implementation.FragmentNavigationMonitor	 1697	    2	Fragment onStopped SplashFragment
+2024-04-17T18:59:08.9360000	INFO	com.microsoft.intune.policytaskscheduler.domain.PolicyHeartbeatUseCase	 1697	15269	Policy workers have not been run yet. Scheduling policy update for the first time.
+2024-04-17T18:59:08.9410000	INFO	com.microsoft.intune.common.androidapicomponent.implementation.FragmentNavigationMonitor	 1697	    2	Fragment onCreated RedirectFragment
+2024-04-17T18:59:08.9410000	INFO	com.microsoft.intune.androiddevicegateway.workcomponent.implementation.DeviceReportWorker	 1697	15254	Not performing work to build and send device report as ADGS certificate has not been provisioned.
+2024-04-17T18:59:08.9520000	WARN	com.microsoft.intune.cryptography.androidapicomponent.implementation.AndroidLocalKeyStore	 1697	15260	Entry for IntuneDeviceKey is not a private key
+2024-04-17T18:59:08.9530000	INFO	com.microsoft.intune.policytaskscheduler.workcomponent.implementation.SchedulePolicyTasksWorkScheduler	 1697	15269	Canceling work for all existing policy tasks.
+2024-04-17T18:59:09.0050000	INFO	com.microsoft.intune.policytaskscheduler.workcomponent.implementation.SchedulePolicyTasksWorkScheduler	 1697	15269	Scheduling next policy update.
+2024-04-17T18:59:09.0070000	INFO	com.microsoft.intune.common.androidapicomponent.implementation.FragmentNavigationMonitor	 1697	    2	Fragment onStarted RedirectFragment
+2024-04-17T18:59:09.0120000	INFO	com.microsoft.intune.common.androidapicomponent.implementation.FragmentNavigationMonitor	 1697	    2	Fragment onDestroyed SplashFragment
+2024-04-17T18:59:09.0130000	INFO	com.microsoft.intune.redirect.presentationcomponent.abstraction.RedirectViewModel	 1697	    2	Initializing loop
+2024-04-17T18:59:09.0140000	INFO	com.microsoft.intune.redirect.presentationcomponent.abstraction.RedirectViewModel	 1697	    2	Initial effect dispatched: LoadRedirect
+2024-04-17T18:59:09.0150000	INFO	com.microsoft.intune.common.androidapicomponent.implementation.FragmentNavigationMonitor	 1697	    2	Fragment onResumed RedirectFragment
+2024-04-17T18:59:09.0160000	INFO	com.microsoft.intune.redirect.presentationcomponent.abstraction.RedirectViewModel	 1697	15281	Update event received: RedirectLoaded.
+2024-04-17T18:59:09.0170000	INFO	com.microsoft.intune.redirect.presentationcomponent.abstraction.RedirectViewModel	 1697	15281	Model updated.
+2024-04-17T18:59:09.2300000	INFO	com.microsoft.intune.experimentation.abstraction.ExperimentationApi	 1697	15254	ECS has no config in 1000 msecs, may use default value for isEnabled(auth.intuneaadclientid.enabled)
+2024-04-17T18:59:09.2320000	INFO	com.microsoft.intune.authentication.domain.IsIntuneAadClientIdFlightedUseCase	 1697	15254	Is flight enabled for auth.intuneaadclientid.enabled: false
+2024-04-17T18:59:09.2330000	INFO	com.microsoft.intune.authentication.domain.GetAadClientIdUseCase	 1697	15238	Using aad client id CompanyPortal.
+2024-04-17T18:59:09.2340000	INFO	com.microsoft.intune.authentication.authcomponent.implementation.AadClientIdStartupRunner	 1697	15238	Initialized aad id CompanyPortal.
+2024-04-17T18:59:09.2690000	INFO	com.microsoft.intune.experimentation.abstraction.ExperimentationApi	 1697	15254	ECS has no config in 1000 msecs, may use default value for isEnabled(dexguard.raspcheck.isEnabled)
+2024-04-17T18:59:09.2710000	INFO	com.microsoft.intune.common.domain.IsRaspCheckFlightedUseCase	 1697	15254	Is flight enabled for dexguard.raspcheck.isEnabled: false
+2024-04-17T18:59:09.2710000	INFO	com.microsoft.intune.rasp.datacomponent.implementation.RaspManualChecker	 1697	15266	Rasp checks not flighted on. Skipping.
+2024-04-17T18:59:09.5180000	INFO	com.microsoft.intune.policytaskscheduler.workcomponent.implementation.SchedulePolicyTasksWorker	 1697	15269	Performing work for applying latest policy.
+2024-04-17T18:59:09.5200000	INFO	com.microsoft.intune.policytaskscheduler.datacomponent.implementation.AppConfigPolicyChannel	 1697	15267	0 config items in the config item list
+2024-04-17T18:59:09.5250000	INFO	com.microsoft.intune.policytaskscheduler.datacomponent.abstraction.PolicyRepo	 1697	15267	Updating 0 current items with 0 desired items
+2024-04-17T18:59:09.5310000	INFO	com.microsoft.intune.policytaskscheduler.domain.SchedulePolicyTasksUseCase	 1697	15269	Scheduling Policy(configItems={}) with update cause InitialSetup.
+2024-04-17T18:59:09.5350000	INFO	com.microsoft.intune.policytaskscheduler.workcomponent.implementation.PolicyTasksScheduler	 1697	15264	Scheduling policy tasks, update cause: InitialSetup
+2024-04-17T18:59:09.5360000	INFO	com.microsoft.intune.policytaskscheduler.workcomponent.implementation.PolicyTasksScheduler	 1697	15264	Scheduling app state report work request for policy.
+2024-04-17T18:59:09.5380000	INFO	com.microsoft.intune.policytaskscheduler.workcomponent.implementation.PolicyTasksScheduler	 1697	15264	Scheduling next work request for policy.
+2024-04-17T18:59:09.5770000	INFO	com.microsoft.intune.policytaskscheduler.workcomponent.implementation.SchedulePolicyTasksWorker	 1697	15264	Completed work for applying latest policy.
+2024-04-17T18:59:09.6570000	WARN	com.microsoft.intune.policy.shared.workcomponent.implementation.BasePolicyWorker	 1697	15283	No policy workflow GUID, no workflow session telemetry will be recorded
+2024-04-17T18:59:09.6580000	INFO	com.microsoft.intune.appstatereporting.workcomponent.implementation.ImmediateAppStateReportWorker	 1697	15264	Starting work for building immediate app state report.
+2024-04-17T18:59:09.6730000	INFO	com.microsoft.intune.core.common.androidapicomponent.implementation.TrueTimeNtpClient	 1697	15242	Initializing TrueTime.
+2024-04-17T18:59:10.1520000	INFO	com.microsoft.intune.telemetry.abstraction.ApplicationStateTelemetry	 1697	15260	Sending HeartbeatEvent(isDeviceSecure=true, isDeviceKeyPairHardwareBacked=false, areNotificationsEnabled=true, brokerPackage=com.azure.authenticator, experimentationInfo=null config, deviceMemoryInBytes=1920933888, internalStorageMB=32000, availableInternalStorageMB=2819, securityPatchVersion=2022-06-01, isAdgsCertInstalled=false)
+2024-04-17T18:59:10.2710000	INFO	com.microsoft.intune.core.common.androidapicomponent.implementation.TrueTimeNtpClient	 1697	15308	Successfully initialized TrueTime.
+2024-04-17T18:59:10.3010000	INFO	com.microsoft.intune.cryptography.androidapicomponent.implementation.AndroidLocalKeyStore	 1697	15264	Set certificate validity not before: Tue Apr 16 13:59:11 CDT 2024
+2024-04-17T18:59:10.3010000	INFO	com.microsoft.intune.cryptography.androidapicomponent.implementation.AndroidLocalKeyStore	 1697	15264	Set certificate validity not after: Thu Apr 17 13:59:11 CDT 2025
+2024-04-17T18:59:11.7540000	INFO	com.microsoft.intune.redirect.presentationcomponent.abstraction.RedirectViewModel	 1697	15281	Update event received: RedirectButtonClicked.
+2024-04-17T18:59:11.7570000	INFO	com.microsoft.intune.redirect.presentationcomponent.abstraction.RedirectViewModel	 1697	15281	Update effects dispatched.
+2024-04-17T18:59:11.7590000	INFO	com.microsoft.intune.cloudmessaging.servicecomponent.abstraction.CloudMessagingServiceModel	 1697	15267	Received new FCM token. Setting token with length: 163.
+2024-04-17T18:59:11.7730000	INFO	com.microsoft.intune.appstatereporting.datacomponent.abstraction.AppStateReportBuilder	 1697	15264	Building app state reports from builders [AndroidDeviceGatewayCertReportItemBuilder, DevicePublicKeyReportItemBuilder, FcmRegistrationTokenReportItemBuilder]. Reason: InitialAppReport.
+2024-04-17T18:59:11.7960000	INFO	com.microsoft.intune.appstatereporting.domain.AppStateReportItemTimeoutUseCase	 1697	15266	No experimentation value for DevicePublicKeyReportItemBuilder timeout. Defaulting to 3.
+2024-04-17T18:59:11.7970000	INFO	com.microsoft.intune.appstatereporting.domain.AppStateReportItemTimeoutUseCase	 1697	15254	No experimentation value for FcmRegistrationTokenReportItemBuilder timeout. Defaulting to 3.
+2024-04-17T18:59:11.7970000	INFO	com.microsoft.intune.appstatereporting.domain.AppStateReportItemTimeoutUseCase	 1697	15260	No experimentation value for AndroidDeviceGatewayCertReportItemBuilder timeout. Defaulting to 3.
+2024-04-17T18:59:11.7970000	INFO	com.microsoft.intune.cloudmessaging.datacomponent.abstraction.FcmRegistrationTokenReportItemBuilder	 1697	15254	Building app state report for FCM registration token.
+2024-04-17T18:59:11.7980000	INFO	com.microsoft.intune.appstatereporting.datacomponent.abstraction.AppStateReportBuilder	 1697	15266	Building app state report for DevicePublicKeyReportItemBuilder. Reason: InitialAppReport.
+2024-04-17T18:59:11.7980000	INFO	com.microsoft.intune.appstatereporting.datacomponent.abstraction.AppStateReportBuilder	 1697	15254	Building app state report for FcmRegistrationTokenReportItemBuilder. Reason: InitialAppReport.
+2024-04-17T18:59:11.8000000	INFO	com.microsoft.intune.appstatereporting.datacomponent.abstraction.AppStateReportBuilder	 1697	15260	Building app state report for AndroidDeviceGatewayCertReportItemBuilder. Reason: InitialAppReport.
+2024-04-17T18:59:11.8010000	INFO	com.microsoft.intune.cloudmessaging.datacomponent.abstraction.FcmRegistrationTokenReportItemBuilder	 1697	15254	Reporting FCM token with length: 163.
+2024-04-17T18:59:11.8020000	INFO	com.microsoft.intune.androiddevicegateway.domain.IsAdgsEnabledUseCase	 1697	15258	ADGS: mode None not supported.
+2024-04-17T18:59:11.8020000	INFO	com.microsoft.intune.appstatereporting.datacomponent.abstraction.AppStateReportBuilder	 1697	15254	Finished building app state report for FcmRegistrationTokenReportItemBuilder. Reason: InitialAppReport.
+2024-04-17T18:59:11.8030000	INFO	com.microsoft.intune.androiddevicegateway.datacomponent.abstraction.AndroidDeviceGatewayCertReportItemBuilder	 1697	15258	Not building app state report item for ADGS cert as it is not supported.
+2024-04-17T18:59:11.8040000	INFO	com.microsoft.intune.appstatereporting.datacomponent.abstraction.AppStateReportBuilder	 1697	15258	Finished building app state report for AndroidDeviceGatewayCertReportItemBuilder. Reason: InitialAppReport.
+2024-04-17T18:59:11.8080000	INFO	com.microsoft.intune.appstatereporting.domain.AppStateReportUseCase	 1697	15266	Sending immediate app state report with 2 keyed app states. Reason: InitialAppReport.
+2024-04-17T18:59:11.8090000	INFO	com.microsoft.intune.appstatereporting.domain.AppStateReportUseCase	 1697	15266	Immediate App report sent. Reason: InitialAppReport.
+2024-04-17T18:59:11.8090000	INFO	com.microsoft.intune.appstatereporting.workcomponent.implementation.ImmediateAppStateReportWorker	 1697	15266	Finished work for sending immediate app state report.
+2024-04-17T18:59:11.8100000	INFO	com.microsoft.intune.appstatereporting.datacomponent.abstraction.AppStateReportBuilder	 1697	15266	Finished building app state report for DevicePublicKeyReportItemBuilder. Reason: InitialAppReport.
+2024-04-17T18:59:11.8830000	INFO	com.microsoft.intune.common.androidapicomponent.implementation.ActivityNavigationMonitor	 1697	    2	Activity onPaused RootActivity
+2024-04-17T18:59:11.8850000	INFO	com.microsoft.intune.common.androidapicomponent.implementation.FragmentNavigationMonitor	 1697	    2	Fragment onPaused RedirectFragment
+2024-04-17T18:59:11.8870000	INFO	com.microsoft.intune.common.androidapicomponent.implementation.FragmentNavigationMonitor	 1697	    2	Fragment onPaused NavHostFragment
+2024-04-17T18:59:11.9600000	WARN	com.microsoft.intune.policy.shared.workcomponent.implementation.BasePolicyWorker	 1697	15285	No policy workflow GUID, no workflow session telemetry will be recorded
+2024-04-17T18:59:11.9610000	INFO	com.microsoft.intune.policytaskscheduler.workcomponent.implementation.ScheduleNextPolicyTaskWorker	 1697	15269	Performing work for scheduling work for scheduling the next policy work request.
+2024-04-17T18:59:11.9670000	INFO	com.microsoft.intune.policytaskscheduler.workcomponent.implementation.ScheduleNextPolicyTaskWorker	 1697	15269	Completed work for scheduling work for scheduling the next policy work request.
+2024-04-17T18:59:12.0250000	INFO	com.microsoft.intune.policytaskscheduler.workcomponent.implementation.ScheduleNextPolicyTaskWorker	 1697	15284	Performing work for scheduling the next policy work request. Has pending work: false.
+2024-04-17T18:59:12.0380000	INFO	com.microsoft.intune.policytaskscheduler.workcomponent.implementation.SchedulePolicyTasksWorkScheduler	 1697	15284	Canceling work for all existing policy tasks.
+2024-04-17T18:59:12.0440000	INFO	com.microsoft.intune.policytaskscheduler.workcomponent.implementation.SchedulePolicyTasksWorkScheduler	 1697	15284	Scheduling next policy update.
+2024-04-17T18:59:12.0780000	INFO	com.microsoft.intune.policytaskscheduler.workcomponent.implementation.ScheduleNextPolicyTaskWorker	 1697	15265	Completed work for scheduling next policy work.
+2024-04-17T18:59:12.1110000	INFO	com.microsoft.intune.policytaskscheduler.workcomponent.implementation.SchedulePolicyTasksWorker	 1697	15269	Performing work for applying latest policy.
+2024-04-17T18:59:12.1120000	INFO	com.microsoft.intune.policytaskscheduler.datacomponent.implementation.AppConfigPolicyChannel	 1697	15265	0 config items in the config item list
+2024-04-17T18:59:12.1150000	INFO	com.microsoft.intune.policytaskscheduler.datacomponent.abstraction.PolicyRepo	 1697	15269	Updating 0 current items with 0 desired items
+2024-04-17T18:59:12.1170000	INFO	com.microsoft.intune.policytaskscheduler.domain.SchedulePolicyTasksUseCase	 1697	15265	Scheduling Policy(configItems={}) with update cause Scheduled.
+2024-04-17T18:59:12.1180000	INFO	com.microsoft.intune.policytaskscheduler.workcomponent.implementation.PolicyTasksScheduler	 1697	15265	Scheduling policy tasks, update cause: Scheduled
+2024-04-17T18:59:12.1180000	INFO	com.microsoft.intune.policytaskscheduler.workcomponent.implementation.PolicyTasksScheduler	 1697	15265	Scheduling wifi work request for policy.
+2024-04-17T18:59:12.1180000	INFO	com.microsoft.intune.policytaskscheduler.workcomponent.implementation.PolicyTasksScheduler	 1697	15265	Scheduling shared userless device app data clear item cleanup work request for policy.
+2024-04-17T18:59:12.1190000	INFO	com.microsoft.intune.policytaskscheduler.workcomponent.implementation.PolicyTasksScheduler	 1697	15265	Scheduling CA cert work request for policy.
+2024-04-17T18:59:12.1190000	INFO	com.microsoft.intune.policytaskscheduler.workcomponent.implementation.PolicyTasksScheduler	 1697	15265	Scheduling SCEP Cert work request for policy.
+2024-04-17T18:59:12.1190000	INFO	com.microsoft.intune.policytaskscheduler.workcomponent.implementation.PolicyTasksScheduler	 1697	15265	Scheduling derived credential user keystore installation for policy.
+2024-04-17T18:59:12.1200000	INFO	com.microsoft.intune.policytaskscheduler.workcomponent.implementation.PolicyTasksScheduler	 1697	15265	Scheduling PFX import work request for policy.
+2024-04-17T18:59:12.1200000	INFO	com.microsoft.intune.policytaskscheduler.workcomponent.implementation.PolicyTasksScheduler	 1697	15265	Scheduling PFX create work request for policy.
+2024-04-17T18:59:12.1200000	INFO	com.microsoft.intune.policytaskscheduler.workcomponent.implementation.PolicyTasksScheduler	 1697	15265	Scheduling app state report work request for policy.
+2024-04-17T18:59:12.1210000	INFO	com.microsoft.intune.policytaskscheduler.workcomponent.implementation.PolicyTasksScheduler	 1697	15265	Scheduling secret key rotation.
+2024-04-17T18:59:12.1210000	INFO	com.microsoft.intune.policytaskscheduler.workcomponent.implementation.PolicyTasksScheduler	 1697	15265	Scheduling next work request for policy.
+2024-04-17T18:59:12.1800000	INFO	com.microsoft.intune.policytaskscheduler.workcomponent.implementation.SchedulePolicyTasksWorker	 1697	15265	Completed work for applying latest policy.
+2024-04-17T18:59:12.2080000	INFO	com.microsoft.intune.wifi.workcomponent.abstraction.WifiWorkModel	 1697	15265	Processing wifi profiles.
+2024-04-17T18:59:12.2090000	INFO	com.microsoft.intune.wifi.workcomponent.implementation.WifiProfileWorker	 1697	15265	Performing work for processing Wifi Profiles.
+2024-04-17T18:59:12.2170000	INFO	com.microsoft.intune.wifi.domain.CleanupStaleProfilesUseCase	 1697	15267	Cleaning up 0 stale profiles
+2024-04-17T18:59:12.2190000	INFO	com.microsoft.intune.wifi.workcomponent.abstraction.WifiWorkModel	 1697	15267	Completed cleaning up stale wifi profiles
+2024-04-17T18:59:12.2200000	INFO	com.microsoft.intune.wifi.workcomponent.implementation.WifiProfileWorker	 1697	15267	Completed work for wifi profiles.
+2024-04-17T18:59:12.3010000	INFO	com.microsoft.intune.shareduserlessdataclear.workcomponent.abstraction.AppDataClearCleanupWorkModel	 1697	15267	Processing app data clear config items.
+2024-04-17T18:59:12.9940000	INFO	com.microsoft.intune.common.androidapicomponent.implementation.ActivityNavigationMonitor	 1697	    2	Activity onStopped RootActivity
+2024-04-17T18:59:12.9960000	INFO	com.microsoft.intune.common.androidapicomponent.implementation.FragmentNavigationMonitor	 1697	    2	Fragment onStopped RedirectFragment
+2024-04-17T18:59:12.9970000	INFO	com.microsoft.intune.common.androidapicomponent.implementation.FragmentNavigationMonitor	 1697	    2	Fragment onStopped NavHostFragment
+2024-04-17T18:59:14.7180000	INFO	com.microsoft.intune.common.androidapicomponent.implementation.ActivityNavigationMonitor	 1697	    2	Activity onStarted RootActivity
+2024-04-17T18:59:14.7230000	INFO	com.microsoft.intune.common.androidapicomponent.implementation.FragmentNavigationMonitor	 1697	    2	Fragment onStarted RedirectFragment
+2024-04-17T18:59:14.7240000	INFO	com.microsoft.intune.common.androidapicomponent.implementation.FragmentNavigationMonitor	 1697	    2	Fragment onStarted NavHostFragment
+2024-04-17T18:59:14.7300000	INFO	com.microsoft.intune.common.androidapicomponent.implementation.ActivityNavigationMonitor	 1697	    2	Activity onResumed RootActivity
+2024-04-17T18:59:14.7320000	INFO	com.microsoft.intune.root.presentationcomponent.abstraction.RootViewModel	 1697	    2	Initializing loop
+2024-04-17T18:59:14.7490000	INFO	com.microsoft.intune.root.presentationcomponent.abstraction.RootViewModel	 1697	    2	Initial effect dispatched: LoadMenuStates
+2024-04-17T18:59:14.7490000	INFO	com.microsoft.intune.root.presentationcomponent.abstraction.RootViewModel	 1697	    2	Initial effect dispatched: LoadUserDrawerDetails
+2024-04-17T18:59:14.7530000	INFO	com.microsoft.intune.redirect.presentationcomponent.abstraction.RedirectViewModel	 1697	    2	Initializing loop
+2024-04-17T18:59:14.7540000	INFO	com.microsoft.intune.root.presentationcomponent.abstraction.RootViewModel	 1697	15281	Update event received: MenuItemStateLoaded.
+2024-04-17T18:59:14.7540000	INFO	com.microsoft.intune.redirect.presentationcomponent.abstraction.RedirectViewModel	 1697	    2	Initial effect dispatched: LoadRedirect
+2024-04-17T18:59:14.7550000	INFO	com.microsoft.intune.common.androidapicomponent.implementation.FragmentNavigationMonitor	 1697	    2	Fragment onResumed RedirectFragment
+2024-04-17T18:59:14.7560000	INFO	com.microsoft.intune.common.androidapicomponent.implementation.FragmentNavigationMonitor	 1697	    2	Fragment onResumed NavHostFragment
+2024-04-17T18:59:14.7600000	INFO	com.microsoft.intune.redirect.presentationcomponent.abstraction.RedirectViewModel	 1697	15281	Update event received: RedirectLoaded.
+2024-04-17T18:59:14.7640000	INFO	com.microsoft.intune.root.presentationcomponent.abstraction.RootViewModel	 1697	15281	Update event received: UserDrawerDetailsLoaded.
+2024-04-17T18:59:17.8410000	INFO	com.microsoft.intune.common.androidapicomponent.implementation.FragmentNavigationMonitor	 1697	    2	Fragment onPaused RedirectFragment
+2024-04-17T18:59:17.8430000	INFO	com.microsoft.intune.common.androidapicomponent.implementation.FragmentNavigationMonitor	 1697	    2	Fragment onStopped RedirectFragment
+2024-04-17T18:59:17.8620000	INFO	com.microsoft.intune.common.androidapicomponent.implementation.FragmentNavigationMonitor	 1697	    2	Fragment onCreated UserSettingsFragment
+2024-04-17T18:59:18.0720000	INFO	com.microsoft.intune.common.androidapicomponent.implementation.FragmentNavigationMonitor	 1697	    2	Fragment onStarted UserSettingsFragment
+2024-04-17T18:59:18.0780000	INFO	o.getContract	 1697	    2	Initializing loop
+2024-04-17T18:59:18.0800000	INFO	o.getContract	 1697	    2	Initial effect dispatched: StartObserving
+2024-04-17T18:59:18.0820000	INFO	com.microsoft.intune.common.androidapicomponent.implementation.FragmentNavigationMonitor	 1697	    2	Fragment onResumed UserSettingsFragment
+2024-04-17T18:59:18.1000000	WARN	com.microsoft.intune.environment.implementation.EnvironmentRepository	 1697	15328	Unknown environment . Defaulting to Production.
+2024-04-17T18:59:18.1019999	WARN	com.microsoft.intune.usersettings.datacomponent.implementation.MAMDefaultAppsSettingsRepo	 1697	15267	Company Portal is not installed.
+2024-04-17T18:59:18.1019999	WARN	com.microsoft.intune.usersettings.datacomponent.implementation.MAMDefaultAppsSettingsRepo	 1697	15267	Default Apps setting is invisible.
+2024-04-17T18:59:18.1030000	WARN	com.microsoft.intune.usersettings.datacomponent.implementation.MAMDefaultAppsSettingsRepo	 1697	15267	Company Portal is not installed.
+2024-04-17T18:59:18.1040000	INFO	o.getContract	 1697	15281	Update event received: ModelUpdateEvent.
+2024-04-17T18:59:18.1050000	INFO	o.getContract	 1697	15281	Model updated.
+2024-04-17T18:59:20.8580000	INFO	com.microsoft.intune.common.androidapicomponent.implementation.FragmentNavigationMonitor	 1697	    2	Fragment onCreated component2
+2024-04-17T18:59:20.9470000	INFO	com.microsoft.intune.common.androidapicomponent.implementation.FragmentNavigationMonitor	 1697	    2	Fragment onStarted component2
+2024-04-17T18:59:20.9470000	INFO	com.microsoft.intune.common.androidapicomponent.implementation.FragmentNavigationMonitor	 1697	    2	Fragment onResumed component2
+2024-04-17T18:59:23.2030000	INFO	o.getContract	 1697	15281	Update event received: LoggingLevelChanged.
+2024-04-17T18:59:23.2039999	INFO	o.getContract	 1697	15281	Update effects dispatched.
+2024-04-17T18:59:23.3080000	WARN	com.microsoft.intune.usersettings.datacomponent.implementation.MAMDefaultAppsSettingsRepo	 1697	15327	Company Portal is not installed.
+2024-04-17T18:59:23.3080000	WARN	com.microsoft.intune.usersettings.datacomponent.implementation.MAMDefaultAppsSettingsRepo	 1697	15327	Default Apps setting is invisible.
+2024-04-17T18:59:23.3090000	WARN	com.microsoft.intune.usersettings.datacomponent.implementation.MAMDefaultAppsSettingsRepo	 1697	15327	Company Portal is not installed.
+2024-04-17T18:59:23.3100000	VERB	o.getContract	 1697	15281	Update event received: ModelUpdateEvent(model=UserSettingsUiModel(isMAMDefaultAppsVisible=false, mamDefaultAppsNumber=0, logLevel=Verbose, telemetryEnabled=true, clientTelemetryDisabledByAdmin=false, showTelemetry=true, firstLoad=false, telemetryPrivacyUrl=https://go.microsoft.com/fwlink/?LinkId=2086031, isDarkMode=false, darkModeToggleVisible=false, sharedUiModel=SharedUiModel(uiState=Loaded, menuState=MenuState(menuItemStates={}), uiErrorState=com.microsoft.intune.coreui.presentationcomponent.abstraction.UiModelErrorState$None@ce38959)))
+2024-04-17T18:59:23.3110000	INFO	o.getContract	 1697	15281	Model updated.
+2024-04-17T18:59:23.3970000	VERB	com.microsoft.intune.usersettings.presentationcomponent.implementation.UserSettingsFragment	 1697	    2	Calling render in BaseFragment.
+2024-04-17T18:59:23.4000000	VERB	com.microsoft.intune.usersettings.presentationcomponent.implementation.UserSettingsFragment	 1697	    2	Render complete.
+2024-04-17T18:59:23.4160000	INFO	com.microsoft.intune.common.androidapicomponent.implementation.FragmentNavigationMonitor	 1697	    2	Fragment onPaused component2
+2024-04-17T18:59:23.4170000	INFO	com.microsoft.intune.common.androidapicomponent.implementation.FragmentNavigationMonitor	 1697	    2	Fragment onStopped component2
+2024-04-17T18:59:23.4190000	INFO	com.microsoft.intune.common.androidapicomponent.implementation.FragmentNavigationMonitor	 1697	    2	Fragment onDestroyed component2
+2024-04-17T18:59:24.8830000	INFO	com.microsoft.intune.usersettings.presentationcomponent.implementation.UserSettingsFragment	 1697	    2	Copy logs button clicked. Launching file explorer.
+2024-04-17T18:59:24.9340000	INFO	com.microsoft.intune.common.androidapicomponent.implementation.ActivityNavigationMonitor	 1697	    2	Activity onPaused RootActivity
+2024-04-17T18:59:24.9360000	INFO	com.microsoft.intune.common.androidapicomponent.implementation.FragmentNavigationMonitor	 1697	    2	Fragment onPaused UserSettingsFragment
+2024-04-17T18:59:24.9380000	INFO	com.microsoft.intune.common.androidapicomponent.implementation.FragmentNavigationMonitor	 1697	    2	Fragment onPaused NavHostFragment
+2024-04-17T18:59:25.5190000	INFO	com.microsoft.intune.common.androidapicomponent.implementation.ActivityNavigationMonitor	 1697	    2	Activity onStopped RootActivity
+2024-04-17T18:59:25.5220000	INFO	com.microsoft.intune.common.androidapicomponent.implementation.FragmentNavigationMonitor	 1697	    2	Fragment onStopped UserSettingsFragment
+2024-04-17T18:59:25.5230000	INFO	com.microsoft.intune.common.androidapicomponent.implementation.FragmentNavigationMonitor	 1697	    2	Fragment onStopped NavHostFragment
+2024-04-17T18:59:28.2680000	INFO	com.microsoft.intune.common.androidapicomponent.implementation.ActivityNavigationMonitor	 1697	    2	Activity onStarted RootActivity
+2024-04-17T18:59:28.3000000	INFO	com.microsoft.intune.common.androidapicomponent.implementation.FragmentNavigationMonitor	 1697	    2	Fragment onStarted UserSettingsFragment
+2024-04-17T18:59:28.3010000	INFO	com.microsoft.intune.common.androidapicomponent.implementation.FragmentNavigationMonitor	 1697	    2	Fragment onStarted NavHostFragment
+2024-04-17T18:59:28.3500000	INFO	com.microsoft.intune.common.androidapicomponent.implementation.ActivityNavigationMonitor	 1697	    2	Activity onResumed RootActivity
+2024-04-17T18:59:28.3580000	INFO	com.microsoft.intune.root.presentationcomponent.abstraction.RootViewModel	 1697	    2	Initializing loop
+2024-04-17T18:59:28.3650000	VERB	com.microsoft.intune.root.presentationcomponent.abstraction.RootViewModel	 1697	    2	Initial effect dispatched: LoadMenuStates(menuItemIDs=[Terms, PrivacyPolicy, Settings, About, Help, SendFeedback, OrganizationCanSee, Devices, Support, Notifications], menuState=MenuState(menuItemStates={Terms=MenuItemState(isVisible=false, customState=null, keepObserving=true), SendFeedback=MenuItemState(isVisible=false, customState=null, keepObserving=false)}))
+2024-04-17T18:59:28.3650000	VERB	com.microsoft.intune.root.presentationcomponent.abstraction.RootViewModel	 1697	    2	Initial effect dispatched: com.microsoft.intune.root.presentationcomponent.abstraction.RootEffect$LoadUserDrawerDetails@28efcfd
+2024-04-17T18:59:28.3670000	INFO	o.getContract	 1697	    2	Initializing loop
+2024-04-17T18:59:28.3680000	VERB	o.getContract	 1697	    2	Initial effect dispatched: com.microsoft.intune.usersettings.presentationcomponent.abstraction.UserSettingsEffect$StartObserving@8443fea
+2024-04-17T18:59:28.3690000	VERB	o.getContract	 1697	15281	Update event received: CopyLogsRequested(snackbarText=Saving your logs…, destDirectoryUri=content://com.android.providers.downloads.documents/tree/downloads)
+2024-04-17T18:59:28.3690000	INFO	com.microsoft.intune.common.androidapicomponent.implementation.FragmentNavigationMonitor	 1697	    2	Fragment onResumed UserSettingsFragment
+2024-04-17T18:59:28.3700000	INFO	com.microsoft.intune.common.androidapicomponent.implementation.FragmentNavigationMonitor	 1697	    2	Fragment onResumed NavHostFragment
+2024-04-17T18:59:28.3750000	WARN	com.microsoft.intune.environment.implementation.EnvironmentRepository	 1697	15269	Unknown environment . Defaulting to Production.
+2024-04-17T18:59:28.3770000	WARN	com.microsoft.intune.usersettings.datacomponent.implementation.MAMDefaultAppsSettingsRepo	 1697	15267	Company Portal is not installed.
+2024-04-17T18:59:28.3770000	WARN	com.microsoft.intune.usersettings.datacomponent.implementation.MAMDefaultAppsSettingsRepo	 1697	15267	Default Apps setting is invisible.
+2024-04-17T18:59:28.3780000	VERB	o.getContract	 1697	15281	Update effect dispatched: CopyLogs
+2024-04-17T18:59:28.3780000	VERB	o.getContract	 1697	15281	Update effect dispatched: UiEffect
+2024-04-17T18:59:28.3790000	VERB	com.microsoft.intune.root.presentationcomponent.abstraction.RootViewModel	 1697	15281	Update event received: MenuItemStateLoaded(menuItemId=Terms, menuItemState=MenuItemState(isVisible=false, customState=null, keepObserving=true))
+2024-04-17T18:59:28.3800000	WARN	com.microsoft.intune.usersettings.datacomponent.implementation.MAMDefaultAppsSettingsRepo	 1697	15267	Company Portal is not installed.
+2024-04-17T18:59:28.3810000	VERB	o.getContract	 1697	15281	Update event received: ModelUpdateEvent(model=UserSettingsUiModel(isMAMDefaultAppsVisible=false, mamDefaultAppsNumber=0, logLevel=Verbose, telemetryEnabled=true, clientTelemetryDisabledByAdmin=false, showTelemetry=true, firstLoad=true, telemetryPrivacyUrl=https://go.microsoft.com/fwlink/?LinkId=2086031, isDarkMode=false, darkModeToggleVisible=false, sharedUiModel=SharedUiModel(uiState=Loaded, menuState=MenuState(menuItemStates={}), uiErrorState=com.microsoft.intune.coreui.presentationcomponent.abstraction.UiModelErrorState$None@ce38959)))
+2024-04-17T18:59:28.3820000	INFO	o.getContract	 1697	15281	Model updated.
+2024-04-17T18:59:28.3870000	VERB	com.microsoft.intune.root.presentationcomponent.abstraction.RootViewModel	 1697	15281	Update event received: UserDrawerDetailsLoaded(userDrawerDetails=DataResult(status=Success, data=UserDrawerDetails(userName=, userEmail=, userProfile=com.microsoft.intune.common.domain.Image$Blank@8827366), problem=com.microsoft.intune.netsvc.network.domain.None@59866a7))
+2024-04-17T18:59:28.4040000	INFO	com.microsoft.intune.diagnostics.datacomponent.implementation.UserAccessibleStorageLogPublisher	 1697	15276	Copying logs to user-accessible storage.
+2024-04-17T18:59:28.4120000	INFO	com.microsoft.intune.diagnostics.logcollection.implementation.LogCollectorHelper	 1697	15276	Copying logs from /data/user/0/com.microsoft.intune/files to content://com.android.providers.downloads.documents/tree/downloads/document/downloads
+2024-04-17T18:59:28.4250000	VERB	com.microsoft.intune.usersettings.presentationcomponent.implementation.UserSettingsFragment	 1697	    2	Calling render in BaseFragment.
+2024-04-17T18:59:28.4290000	VERB	com.microsoft.intune.usersettings.presentationcomponent.implementation.UserSettingsFragment	 1697	    2	Render complete.
+2024-04-17T18:59:28.4570000	VERB	com.microsoft.intune.usersettings.presentationcomponent.implementation.UserSettingsFragment	 1697	    2	Calling render in BaseFragment.
+2024-04-17T18:59:28.4600000	VERB	com.microsoft.intune.usersettings.presentationcomponent.implementation.UserSettingsFragment	 1697	    2	Render complete.
