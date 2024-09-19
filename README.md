@@ -37,6 +37,7 @@ MalesForFemalesLLC22/MalesForFemalesLLC22 is a ✨ special ✨ repository becaus
     uses: actions/configure-pages@v5
     name: Upload artifact
     uses: actions/upload-pages-artifact@v3
+
 # Upload entire repository
     path: 
     name: Deploy to GitHub Pages
