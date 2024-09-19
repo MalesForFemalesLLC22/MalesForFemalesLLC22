@@ -7,25 +7,48 @@
 - ⚡ Fun fact: ...
 
 <!---
-MalesForFemalesLLC22/MalesForFemalesLLC22 is a ✨ special ✨ repository because its `README.md` (https://github.com/Madib036/MMFLLC/blob/main/.github%2Fdependabot.yml) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->(https://malesforfemalesllc.atlassian.net/gateway/api/compass/v1/webhooks/4283432c-68d4-41d9-afa0-180b198c35eb)
-''name: Auto Assign
+MalesForFemalesLLC22/MalesForFemalesLLC22 is a ✨ special ✨ repository because its `README.md` (https://github.com/Madib036/MMFLLC/blob/main/.github%2Fdependabot.yml)
+
+# Simple workflow for deploying static content to GitHub Pages
+name: Deploy static content to Pages
+
 on:
-  issues:
-    types: [opened]
-  pull_request:
-    types: [opened]
+  # Runs on pushes targeting the default branch
+  push:
+    branches: ["main"]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
 jobs:
-  run:
+  # Single deploy job since we're just deploying
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
-    permissions:
-      issues: write
-      pull-requests: write
     steps:
-    - name: 'Auto-assign issue'
-      uses: pozil/auto-assign-issue@v1
-      with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
-          assignees: Madib036
-          numOfAssignee: 1''
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          # Upload entire repository
+          path: '.'
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
