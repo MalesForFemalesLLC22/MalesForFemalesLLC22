@@ -1,4 +1,5 @@
-MalesForFemalesLLC22/MalesForFemalesLLC22 is a ✨ special ✨ repository because its `README.md` (https://github.com/Madib036/MMFLLC/blob/main/.github%2Fdependabot.yml)
+MalesForFemalesLLC22/MalesForFemalesLLC22 is a ✨ special ✨ repository because its `README.md` 
+# (git clone git@bitbucket.org:madib0361/malesforfemalesllc.link.git)
 
 # Simple workflow for deploying static content to GitHub Pages
     name: Deploy static content to Pages
