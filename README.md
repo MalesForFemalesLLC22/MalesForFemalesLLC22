@@ -1,6 +1,6 @@
-# MalesForFemalesLLC22/MalesForFemalesLLC22 is a ✨ special ✨ repository because its `README.md`
+# MalesForFemalesLLC22 is a ✨ special ✨ repository because its `README.md`
 
-# [Welcome to GitHub, Let's build from here!]
+### Welcome to GitHub, Let's build from here!
 
 
 ## Overview
