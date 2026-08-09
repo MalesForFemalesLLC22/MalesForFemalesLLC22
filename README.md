@@ -11,9 +11,6 @@ This repo contains values for color, spacing, and typography primitives for use 
 
 This repository is distributed on [npm][npm]. After [installing npm][install-npm], you can install `@primer/primitives` with this command.
 
-```sh
-$ npm install --save @primer/primitives
-```
 
 ## Usage
 
